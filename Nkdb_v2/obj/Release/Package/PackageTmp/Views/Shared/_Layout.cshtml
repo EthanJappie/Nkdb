@@ -6,9 +6,12 @@
     <title>@ViewBag.Title</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
 </head>
 <body>
-    <div class="navbar sticky-top navbar-inverse navbar-fixed-top bg-primary">
+    @*<div class="navbar sticky-top navbar-inverse navbar-fixed-top bg-primary">
         <div class="container">
             @*<div class="navbar-header" >
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -17,7 +20,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 @Html.ActionLink("National Khoi-San Database", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>*@
+            </div>
             <div class="navbar-collapse collapse ">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
@@ -32,16 +35,14 @@
                 </ul>
             </div>
         </div>
-    </div>
-    <div class="container body-content">
+    </div>*@
+    <div>
         @RenderBody()
         @*<footer class="footer" >
             <p>&copy; @DateTime.Now.Year - National Khoi-San Database</p>
         </footer>*@
     </div>
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
+    
 </body>
 </html>

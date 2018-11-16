@@ -84,8 +84,10 @@ C:\Users\JappieE\Documents\Visual Studio 2017\Projects\Nkdb_v2\Nkdb_v2\bin\Micro
 C:\Users\JappieE\Documents\Visual Studio 2017\Projects\Nkdb_v2\Nkdb_v2\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\JappieE\Documents\Visual Studio 2017\Projects\Nkdb_v2\Nkdb_v2\bin\Microsoft.AI.Web.xml
 C:\Users\JappieE\Documents\Visual Studio 2017\Projects\Nkdb_v2\Nkdb_v2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\JappieE\Documents\Visual Studio 2017\Projects\Nkdb_v2\Nkdb_v2\obj\Debug\Nkdb_v2.csprojAssemblyReference.cache
 C:\Users\JappieE\Documents\Visual Studio 2017\Projects\Nkdb_v2\Nkdb_v2\obj\Debug\Nkdb_v2.csproj.CoreCompileInputs.cache
 C:\Users\JappieE\Documents\Visual Studio 2017\Projects\Nkdb_v2\Nkdb_v2\obj\Debug\Nkdb_v2.csproj.CopyComplete
 C:\Users\JappieE\Documents\Visual Studio 2017\Projects\Nkdb_v2\Nkdb_v2\obj\Debug\Nkdb_v2.dll
 C:\Users\JappieE\Documents\Visual Studio 2017\Projects\Nkdb_v2\Nkdb_v2\obj\Debug\Nkdb_v2.pdb
+C:\Users\JappieE\Documents\Visual Studio 2017\Projects\Nkdb_v2\Nkdb_v2\bin\Microsoft.Owin.dll
+C:\Users\JappieE\Documents\Visual Studio 2017\Projects\Nkdb_v2\Nkdb_v2\bin\Owin.dll
+C:\Users\JappieE\Documents\Visual Studio 2017\Projects\Nkdb_v2\Nkdb_v2\bin\Microsoft.Owin.xml

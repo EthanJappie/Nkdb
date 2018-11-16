@@ -4,37 +4,45 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div class="branding">
-    <p>Login</p>
+<div class="row">
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
 </div>
 
-<div class="loginContainer container" style="">
+<div class="col-md-9 col-md-offset-3" >
     <div class="row">
-        <div class="col">
-        </div>
-        <div class="col">
-            <form  style="margin-left:25%;margin-top: 5%;">
-                <div class="form-group">
-                    <label class="form-control-placeholder" for="email">Email address</label>
-                    <input type="email" id="email" class="form-control" />
+        <div class="col-md-offset-2 col-md-3">
+            <div class="form-login">
+                <h4>Welcome back.</h4>
+                <input type="text" id="userName" class="form-control input-sm chat-input" placeholder="Username" />
+                </br>
+                <input type="text" id="userPassword" class="form-control input-sm chat-input" placeholder="Password" />
+                </br>
+                <div class="wrapper">
+                    <span class="group-btn">
+                        <button class="btn btn-success btn-md">@Html.ActionLink("LOGIN", "Login", "Login", new object { }, new { @class = "buttonAttr" })</button>
+                    </span>
+                    <span class="group-btn">
+                        <button class="btn btn-danger btn-md">@Html.ActionLink("CANCEL", "Index", "Home", new object { }, new { @class = "buttonAttr" })</button>
+                    </span>
                 </div>
+            </div>
 
-                <div class="form-group">
-                    <label class="form-control-placeholder" for="password">Password</label>
-                    <input type="password" id="password" class="form-control" required />
-                </div>
-
-                <div class="form-group">
-                    <button type="submit" class="btn btn-primary btn-sm btn-block">LOGIN</button>
-                </div>
-            </form>
         </div>
-        <div class="col">
-        </div>
-        
     </div>
-    
-</div>
+</div>    
 
 
 

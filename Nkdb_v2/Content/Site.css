@@ -2,7 +2,7 @@
     background: linear-gradient(270deg, #a7f053, #4dcbe8, #eaa28d);
     background-size: 600% 600%;
     animation: Background 30s ease infinite;
-    /*overflow:hidden;*/
+    overflow:hidden;
 }
 
 html, body {
@@ -49,19 +49,6 @@ textarea {
     width: 70% !important;
 }
 
-.loginContainer {
-    background-color: rgba(255,255,255,0.4);
-    border-radius: 10px;
-    margin-top: 10%;
-    margin-left: 25%;
-    width: 40% !important;
-    padding:2%;
-}
-
-.loginForm {
-    border: 2px solid black !important;
-    margin-left: 50%;
-}
 @keyframes BackgroundNav {
     0% {
         background-position: 0% 50%
@@ -115,4 +102,48 @@ textarea {
 .child {
     height: 100% !important;
     border: 2px solid white;
+}
+
+.buttonAttr{
+    color:white;
+    text-decoration:none;
+}
+
+    .buttonAttr:hover {
+        color: white;
+        text-decoration: none;
+    }
+
+.container {
+    padding: 25px;
+    position: fixed;
+}
+
+.form-login {
+    background-color: #EDEDED;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border-color: #d2d2d2;
+    border-width: 5px;
+    box-shadow: 0 1px 0 #cfcfcf;
+    margin:0 auto;
+    text-align:center;
+}
+
+h4 {
+    border: 0 solid #fff;
+    border-bottom-width: 1px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+.wrapper {
+    text-align: center;
 }

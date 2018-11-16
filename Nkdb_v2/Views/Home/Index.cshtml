@@ -2,26 +2,16 @@
     ViewBag.Title = "NKDB";
 }
 
-<div id="parent">
-    <div class="child" style="background-image:url(../../Content/Images/imageedit_1_7229943960.jpg);background-repeat: no-repeat;background-size: cover;">
-        <div class="jumbotron">
-            <div style="text-align: center;">
-                <span><button id="about" class="btn btn-primary btn-lg ">About</button></span>
-                
-                <span><button id="login" class="btn btn-success btn-lg">Login</button></span>
-                
-                <span><button id="register" class="btn btn-info btn-lg">Register</button></span>
-            </div>
-            
-        </div>
-    </div>
-
-    <div id="login" class="child">
-
-    </div>
-
-    <div id="register" class="child">
-
+<div id="parent" style="background-image:url(../../Content/Images/imageedit_1_7229943960.jpg);background-repeat: no-repeat;background-size: cover;">
+    <div class="row">
+        <span class="col-md-2" ></span>
+        <span class="col-md-2" ></span>
+        <span class="col-md-2" ></span>
+        <span class="col-md-2" ></span>
+        <span class="col-md-2" style="float:right;">
+            <button id="login" class="btn btn-success btn-lg">@Html.ActionLink("Login", "Login", "Login", new object { }, new { @class = "buttonAttr" })</button>
+            <button id="register" class="btn btn-info btn-lg">@Html.ActionLink("Register", "Register", "Register", new object { }, new { @class = "buttonAttr" })</button>
+        </span>
     </div>
 </div>
 

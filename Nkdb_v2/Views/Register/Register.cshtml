@@ -1,0 +1,74 @@
+﻿
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="branding">
+    <p>Register</p>
+</div>
+
+<div class="loginContainer container" style="">
+    <div class="row">
+        <div class="col">
+        </div>
+        <div class="col">
+            <form style="margin-left:25%;margin-top: 5%;">
+                <div class="form-group">
+                    <label class="form-control-placeholder" for="firstname">Firstname</label>
+                    <input type="text" id="firstname" class="form-control" />
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-placeholder" for="lastname">Lastname</label>
+                    <input type="text" id="lastname" class="form-control" />
+                </div>
+
+                <div class="form-group">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            Gender
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li><a href="#">Male</a></li>
+                            <li><a href="#">Female</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Other</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+
+
+                <div class="form-group">
+                    <label class="form-control-placeholder" for="idNumber">ID Number</label>
+                    <input type="number" id="idNumber" class="form-control" />
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-placeholder" for="email">Email address</label>
+                    <input type="email" id="email" class="form-control" />
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-placeholder" for="password">Password</label>
+                    <input type="password" id="password" class="form-control" required />
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-placeholder" for="confirmPassword">Confirm Password</label>
+                    <input type="password" id="confirmPassword" class="form-control" required />
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-sm btn-block">Register</button>
+                </div>
+            </form>
+        </div>
+        <div class="col">
+        </div>
+
+    </div>
+
+</div>
